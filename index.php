@@ -29,6 +29,11 @@ function DrawPlaceholder() {
     img.src = '2019-3.jpg';
   
 }
+
+ function Mustafa(){
+     TRUE;
+ }
+
 function DrawOverlay(img) {
     ctx.drawImage(img,0,0);
     ctx.fillStyle = 'rgba(0, 0, 0, 0)';
@@ -81,3 +86,5 @@ document.getElementById('download').onclick = function download() {
 
 
 </script>
+
+
